@@ -1,0 +1,30 @@
+.dropbtn {background-color: #8FBC8F;
+  color: #BBBBB;
+  padding: 16px;
+  font-size: 16px;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  border: none;}
+.dropbtn2 {background-color: #8FBC8F;
+  color: #BBBBB;
+  padding: 16px;
+  font-size: 16px;
+    font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  border: none;}
+.dropdown {
+  position: relative;
+  display: inline-block;}
+.dropdown-content {display: none;
+  position: absolute;
+  background-color: #F5FFFA;
+  min-width: 160px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+  z-index: 1;}
+.dropdown-content a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;}
+.dropdown-content a:hover {background-color: #F0FFF0;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3E8E41;}
+.dropdown:hover .dropbtn2 {background-color: #3E8E41;}
